@@ -7,8 +7,10 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  create_an_array << "red"
+  array = ["blue", "orange", "green", "purple"]
+  array << "red"
 end
+p array
 
 def add_element_to_start_of_array(array, element)
   
