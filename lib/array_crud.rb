@@ -10,7 +10,7 @@ def add_element_to_end_of_array(array, element)
   ["blue", "orange", "green", "purple"]
   add_element_to_end_of_array << "red"
 end
-p add_element_to_end_of_array
+
 
 def add_element_to_start_of_array(array, element)
   
